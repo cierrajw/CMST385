@@ -1,0 +1,272 @@
+body.home{
+    height: 100vh;
+    background-image: url('images/Home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Arial, sans-serif;
+}
+body.other{
+    height: 100vh;
+    background-image: url('images/Rectangle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Arial, sans-serif;
+}
+body.news{
+    min-height: 100vh;
+    background-image: url('images/Rectangle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Arial, sans-serif;
+}
+#logo{
+    width: 55px;
+}
+.container{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+.navCon{
+    max-height: 10vh;
+    overflow-y: hidden;
+}
+.bodyCon{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.bodyCon.other{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bodyConNews{
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+}
+.navBar{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.navBtns{
+    margin-left: auto;
+    margin-top: 15px;
+}
+.navLink{
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.navLink.active{
+    border-bottom: 2px solid #00877C;
+    font-weight: bold;
+}
+.navLink:hover{
+    color: #00877C;
+}
+.socialIconsCon a{
+    display: block;
+    text-decoration: none;
+}
+.socialIcon{
+    margin-bottom: 50px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    color: rgba(11, 17, 26, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bodyContent{
+    text-align: right;
+    margin-left: 100px;
+    width: 40vw;
+}
+.bodyContent h1{
+    color: white;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 3em;
+}
+.bodyContent h1.secondPart{
+    color: #00877C;
+    font-weight: 500;
+}
+.bodyContent p{
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.sign{
+    width: 250px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+.topPart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.albumArt{
+    width: 200px;
+}
+.albumInfo{
+    margin-left: 20px;
+    min-width: 450px;
+}
+.albumInfo h1{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.albumInfo hr{
+    background-color: #00877C;
+    border-color: #00877C;
+    opacity: 1;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.albumInfo .smallText{
+    font-size: 0.7em;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.albumInfo .normalText{
+    font-size: 0.9em;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.album{
+    width: 90%;
+}
+.album .whiteLine{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottomPart{
+    width: 100%;
+    text-align: center;
+    max-height: 250px;
+    overflow-y: auto;
+}
+table{
+    border: none;
+    width: 100%;
+}
+td{
+    padding-bottom: 10px;
+}
+.num{
+    color: #00877C;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.title{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+.artist{
+    color: white;
+    font-size: 1em;
+}
+.duration{
+    color: white;
+    font-size: 1em;
+}
+.leftBtn, .rightBtn{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    position: absolute;
+    cursor: pointer;
+}
+.leftBtn{
+    left: 0px;
+}
+.rightBtn{
+    right: 0px;
+}
+.newsItem{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #00877C;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.newsImage{
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #00877C;
+}
+.newsDetails{
+    margin-left: 20px;
+}
+.newsDetails h2{
+    color: white;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.newsDetails p{
+    font-size: 0.9em;
+    color: white;
+}
+.readMoreBtn{
+    color: white;
+    box-shadow: none;
+    border: none;
+    background-color: #00877C;
+    border-radius: 5px;
+    padding: 10px;
+}
+.newsCon{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
